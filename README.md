@@ -1,5 +1,5 @@
 # SuperstoreProjectFile-2
-This file contains SQL queries and Python codes we implemented and knowledge about general processes we performed for our Superstore project. In this stage, I'd like to thank Arda Kantık to help me to write those SQL queries. 
+This file contains SQL queries and Python codes we implemented before and knowledge about general processes we performed for our Superstore project. In this stage, I'd like to thank Arda Kantık to help me to write those SQL queries. 
 
 We've found that Superstore hasn't got any null values for each column.  Then we've removed one duplicated row in the dataset and copied it into new table. This was our dataset based on OrderId. We've checked our columns types by using INFORMATION_SCHEMA.COLUMNS. Also, we've found the best selling products for the quantity and sales columns. We've found top purchasing customer(William Brown) and made doing similar EDA in Excel, SQL and Python. 
 
