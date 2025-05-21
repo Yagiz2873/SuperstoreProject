@@ -1,7 +1,7 @@
 # SuperstoreProjectFile-2
 This file contains SQL queries and Python codes we implemented and knowledge about general processes we performed for our Superstore project. In this stage, I'd like to thank Arda Kantık to help me to write those SQL queries. 
 
-We've found that Superstore hasn't got any null values for each column. Then we've removed one duplicated row in the dataset and copied it into new table. This was our dataset based on OrderId. We've checked our columns types by using INFORMATION_SCHEMA.COLUMNS.
+We've found that Superstore hasn't got any null values for each column.  Then we've removed one duplicated row in the dataset and copied it into new table. This was our dataset based on OrderId. We've checked our columns types by using INFORMATION_SCHEMA.COLUMNS. Also, we've found the best selling products for the quantity and sales columns. We've found top purchasing customer(William Brown) and made doing similar EDA in Excel, SQL and Python. 
 
 In this dataset, the columns called sales,quantity and profit were the most important columns for us so, we've handled outliers for these columns. We've tried to remove outliers first for these columns but we've realized that we've removed %30 of dataset :). This was too much percantage to get rid of outliers directly, so we've capped our outliers instead. Thanks for Sine Gökhan's outlier analysis in Python, we've found that %5 - %95 for lower and upper limit was the best limits for capping process. Then we've performed capping process in the SQL.
 
@@ -15,8 +15,8 @@ Superstore dataset generally shows online orders for the supermarket in USA. We'
 
 So we've decided to campaign on customers' average basket size in the At Risk Segment, Storage-Paper and Storage-Binder relations in winter.
 
-Then we've found the best selling products for the quantity and sales columns. Finally we've found top purchasing customer(William Brown) and finished our job in SQL.
+
 
 Also, throughout our analyses, we've reviewed our columns in detail, transformed datas in some columns (for example, separating date and time parts from each other in OrderDate and ShipmentDate columns, fixing CustomerName columns' values caused by some language problems (for example, changing Franz?sisch to Franzosisch.)). We've found that values in ShipMode have important meanings. (Standard Class shows orders within 7 days (according to ShipmentDate-OrderDate calculation), First class shows orders within 2 days, Second Class shows orders within 3 days the most and Same Day specifies the orders within the same day). We've also found that this dataset has another segment column apart from our segment column for the RFM analysis. This column has 3 values: Consumer, Corporate and Home Office. Based on their percantage weight in the column, I can say that this supermarket has a B2C business model mostly.
 
-I will be talking about my other studyings (CLTV calculation and K-means clustering based on CLTV values) in the project too.
+
