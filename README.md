@@ -13,7 +13,7 @@ After these, we've started to look for insights by joining our tables (Superstor
 
 Superstore dataset generally shows online orders for the supermarket in USA. We've found that New York, Los Angeles, San Francisco, Philadelphia and Seattle had the most monetary from 2014 to 2017. The west and east of the country had the most monetary and profit. Then we've reviewed the sales based on their months and grouped these months by their seasons. We've realized that the supermarket's gotten the most monetary and profit in the autumn and winter compared to other seasons in these four years so we've decided to perform our Market Basket Analysis by using Appriori Algorithm based on each seasonal orders and subcategories. (Basically we've separated our dataset into 4 datasets based on seasons and use Appriori Algorithm based on subcategory column for the each dataset to find subcategories' relations, antecedent-consequent-support values,confidence,lift values etc). We've found that Storage had the best relationship with papers and binders. (It makes sense, because people place papers in binders and then place binders in storage items at the office) and we've decided to advance our analyses on the sales in autumn and winter. The sales in winter are less than in autumn. We wanted to campaign to increase sales in winter
 
-So we've decided to campaign for customers in the At Risk Segment, Storage-Paper and Storage-Binder relations in winter.
+So we've decided to campaign on customers' average basket size in the At Risk Segment, Storage-Paper and Storage-Binder relations in winter.
 
 Then we've found the best selling products for the quantity and sales columns. Finally we've found top purchasing customer(William Brown) and finished our job in SQL.
 
