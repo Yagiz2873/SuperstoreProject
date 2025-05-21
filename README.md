@@ -15,8 +15,8 @@ Superstore dataset generally shows online orders for the supermarket in USA. We'
 
 So we've decided to campaign on customers' average basket size in the At Risk Segment, Storage-Paper and Storage-Binder relations in winter.
 
-
+In order to find the customers' possible monetaries, make marketing strategies and group the customers based on these monetary values; we performed lots of operations in Python. First, we decided to calculate CLTV (Customer Lifetime values) based on rule based (mathematical) calculation. Then, we've used BG-NBD and Gamma-Gamma models to find these values. After that, by using these financial values, we've implemented K-means clustering and found 5 optimum different groups based on these financial values.  
 
 Also, throughout our analyses, we've reviewed our columns in detail, transformed datas in some columns (for example, separating date and time parts from each other in OrderDate and ShipmentDate columns, fixing CustomerName columns' values caused by some language problems (for example, changing Franz?sisch to Franzosisch.)). We've found that values in ShipMode have important meanings. (Standard Class shows orders within 7 days (according to ShipmentDate-OrderDate calculation), First class shows orders within 2 days, Second Class shows orders within 3 days the most and Same Day specifies the orders within the same day). We've also found that this dataset has another segment column apart from our segment column for the RFM analysis. This column has 3 values: Consumer, Corporate and Home Office. Based on their percantage weight in the column, I can say that this supermarket has a B2C business model mostly.
 
-
+In the end, we've used all these files to create and visualize a dashboard on PowerBI
