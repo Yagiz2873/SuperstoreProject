@@ -1,0 +1,1 @@
+This repository contains almost all files that I've prepared with my teammates for the analysis project on a dataset called Superstore. You can find in-depth knowledge about the project on README files in project folders
