@@ -1,0 +1,1 @@
+In this repository, you can see the PowerBI dashboard photos for the analyses on Superstore Dataset. Due to size file and dataset's privacy, the dashboard file can't be shared directly, just like Superstore Excel files. I would like to thank Sine Gökhan for her help. I've also made some contributions for dashboard.

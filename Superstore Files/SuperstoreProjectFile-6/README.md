@@ -1,0 +1,1 @@
+This repo contains Excel files that shows seasonal sales for the Superstore dataset from 2014 to 2017. These files were prepared for further analyses, especially for implementing Apriori Algorithm, by İrfan Mızrakçı. I've also made some contributions for these.
